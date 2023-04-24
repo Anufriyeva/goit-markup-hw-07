@@ -19,6 +19,13 @@
     .team-item {
         flex-basis: calc((100% - 24px) / 2);
     }
+
+    .customers-item {
+        flex-basis: calc((100% - 48px) / 3);
+    }
+    .customer-list {
+        column-gap: 24px;
+    }
 }
 
 @media screen and (min-width: 1158px) {
@@ -37,7 +44,9 @@
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
-    .team-section>.container {
+    .team-section>.container,
+    .customers-section > .container {
         width: 582px;
     }
 }
+
