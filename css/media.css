@@ -11,6 +11,18 @@
         width: 768px;
     }
 
+    .benefits-list {
+        column-gap: 24px;
+    }
+
+    .benefits-item {
+        flex-basis: calc((100% - 24px) / 2);
+    }
+
+    .list-title {
+        text-align: left;
+    }
+
     .team-list {
         row-gap: 64px;
         column-gap: 24px;
@@ -38,9 +50,43 @@
         padding-bottom: 120px;
     }
 
+    .benefits-pic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: var(--background-alternate-color);
+        height: 112px;
+        border-radius: 4px;
+        margin-bottom: 8px;
+    }
+
+    .list-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: calc(24 / 20);
+    }
+
+    .benefits-item {
+        flex-basis: calc((100% - 72px) / 4);
+    }
+
+    .works {
+        display: unset;
+    }
+
     .team-item {
         flex-basis: calc((100% - 72px) / 4);
     }
+
+    .customer-list {
+        flex-wrap: nowrap;
+    }
+
+    .customers-item {
+        width: calc((100% - 24px * 5) / 6);
+    }
+
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
