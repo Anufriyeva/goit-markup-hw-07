@@ -20,6 +20,68 @@
     .container {
         width: 768px;
     }
+    .header-list {
+        display: flex;
+        gap: 40px;
+    }
+    
+    .nav-link {
+        display: block;
+        font-weight: 500;
+        line-height: calc(24 / 16);
+        letter-spacing: 0.02em;
+        color: var(--secondary-text-color);
+    
+        padding-top: 24px;
+        padding-bottom: 24px;
+    
+        transition: color var(--time-trans);
+    }
+    
+    .nav-link:hover,
+    .nav-link:focus,
+    .current {
+        color: var(--pressed-state-color);
+    }
+
+    .current::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        display: block;
+        width: 100%;
+        height: 4px;
+        border-radius: 2px;
+        background-color: var(--pressed-state-color);
+    }
+    
+    .nav-item {
+        position: relative;
+    }
+
+    .contact-link {
+        color: inherit;
+        line-height: calc(24 / 16);
+        letter-spacing: 0.02em;
+        font-style: normal;
+        transition: color var(--time-trans);
+    }
+    
+    .contact-link:hover,
+    .contact-link:focus {
+        color: var(--pressed-state-color);
+    }
+    
+    .address-list {
+        font-style: normal;
+    }
+    
+    .contact-list {
+        display: flex;
+        gap: 40px;
+    }
+
     .hero-section {
         background-image: var(--bg-gradient), url(../images/hero-bg.jpg);
     }
