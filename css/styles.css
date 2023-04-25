@@ -165,26 +165,26 @@ body {
 
 /* Hero */
 .hero-section {
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding-top: 112px;
+    padding-bottom: 112px;
     background-color: var(--background-accent-color);
     text-align: center;
     background-image: var(--bg-gradient), url(../images/hero-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
 }
 .hero-title {
-    max-width: 496px;
-    margin-bottom: 48px;
+    /* margin-bottom: 48px; */
+    max-width: 320px;
+    margin-bottom: 72px;
     margin-left: auto;
     margin-right: auto;
     font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
+    font-size: 36px;
+    line-height: calc(40 / 36);
     letter-spacing: 0.02em;
     color: #FFFFFF;
 }
