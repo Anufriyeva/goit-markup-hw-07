@@ -169,15 +169,21 @@ body {
     padding-bottom: 112px;
     background-color: var(--background-accent-color);
     text-align: center;
-    background-image: var(--bg-gradient), url(../images/hero-bg.jpg);
+    background-image: var(--bg-gradient), url(../images/hero-bg-mob.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
 }
+@media (min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-section {
+        background-image: var(--bg-gradient), url(../images/hero-bg-mob-2x.jpg);
+    }
+}   
 .hero-title {
-    /* margin-bottom: 48px; */
     max-width: 320px;
     margin-bottom: 72px;
     margin-left: auto;
