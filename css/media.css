@@ -82,6 +82,11 @@
         gap: 40px;
     }
 
+    .mob-menu,
+    .menu-open-btn {
+        display: none;
+    }
+
     .hero-section {
         background-image: var(--bg-gradient), url(../images/hero-bg.jpg);
     }
