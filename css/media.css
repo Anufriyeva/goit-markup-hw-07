@@ -161,6 +161,19 @@
         column-gap: 24px;
     }
 
+    .portfolio {
+        padding-top: 64px;
+        padding-bottom: 96px;
+    }
+    .portfolio-list {
+        gap: 72px 24px;
+    }
+        
+    .button-list {
+        justify-content: center;
+        margin-bottom: 64px;
+    }
+
     .footer-wrap {
         display: flex;
         gap: 24px;
@@ -251,6 +264,14 @@
 
     .customers-item {
         width: calc((100% - 24px * 5) / 6);
+    }
+
+    .portfolio {
+        padding-top: 100px;
+        padding-bottom: 120px;
+    }
+    .portfolio-list {
+        gap: 48px 24px;
     }
 
     .footer-section {

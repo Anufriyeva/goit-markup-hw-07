@@ -491,14 +491,18 @@ body {
 
 /* Portfolio */
 .portfolio {
-    padding-top: 96px;
-    padding-bottom: 120px;
+    /* padding-top: 96px;
+    padding-bottom: 120px; */
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 .button-list {
     display: flex;
-    gap: 24px;
-    justify-content: center;
-    margin-bottom: 72px;
+    flex-wrap: wrap;
+    gap: 24px 16px;
+    justify-content: left;
+    /* margin-bottom: 72px; */
+    margin-bottom: 48px;
 }
 .portfolio-btn {
     padding: 12px 24px;
@@ -530,12 +534,14 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
+    justify-content: center;
 }
 .portfolio-list li {
-    width: calc((100% - 48px) / 3);
+    /* width: calc((100% - 48px) / 3); */
 }
 .portfolio-item {
-    max-width: 360px;
+    /* max-width: 360px; */
+    max-width: 356px;
 }
 .portfolio-item:hover .portfolio-cover-text {
     transform: translate(0);
