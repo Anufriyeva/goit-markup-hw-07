@@ -14,6 +14,21 @@
                 background-image: var(--bg-gradient), url(../images/hero-bg-tab-2x.jpg);
             }
         }
+    .mob-menu-phone {
+        font-size: 36px;
+        line-height: calc(40 / 36);
+    }
+    .mob-menu-soc-list {
+        gap: 56px;
+    }
+    .hero-title {
+        font-size: 36px;
+        line-height: calc(40 / 36);
+    }
+    .modal {
+        width: 392px;
+        height: 584px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -23,6 +38,9 @@
     .header-list {
         display: flex;
         gap: 40px;
+    }
+    .logo {
+        margin-right: 120px;
     }
     
     .nav-link {
@@ -62,8 +80,12 @@
 
     .contact-link {
         color: inherit;
-        line-height: calc(24 / 16);
-        letter-spacing: 0.02em;
+        /* line-height: calc(24 / 16);
+        letter-spacing: 0.02em; */
+        
+        font-size: 12px;
+        line-height: calc(14 / 12);
+        letter-spacing: 0.04em;
         font-style: normal;
         transition: color var(--time-trans);
     }
@@ -79,7 +101,9 @@
     
     .contact-list {
         display: flex;
-        gap: 40px;
+        flex-direction: column;
+        margin-left: auto;
+        gap: 12px;
     }
 
     .mob-menu,
@@ -103,6 +127,10 @@
         margin-bottom: 36px;
         font-size: 56px;
         line-height: calc(60 / 56);
+    }
+    .modal {
+        width: 408px;
+        height: 584px;
     }
 
     .benefits-list {
@@ -161,6 +189,19 @@
 @media screen and (min-width: 1200px) {
     .container {
         width: 1158px;
+    }
+    .logo {
+        margin-right: 76px;
+    }
+    .contact-list {
+        flex-direction: row;
+        margin-left: auto;
+        gap: 40px;
+    }
+    .contact-link {
+        font-size: 16px;
+        line-height: calc(24 / 16);
+        letter-spacing: 0.02em;
     }
 
     .section {
