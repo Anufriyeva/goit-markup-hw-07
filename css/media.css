@@ -27,7 +27,6 @@
     }
     .modal {
         width: 392px;
-        height: 584px;
     }
 }
 
@@ -130,7 +129,6 @@
     }
     .modal {
         width: 408px;
-        height: 584px;
     }
 
     .benefits-list {
@@ -165,6 +163,9 @@
         padding-top: 64px;
         padding-bottom: 96px;
     }
+    .portfolio-btn {
+        padding: 12px 24px;
+    }
     .portfolio-list {
         gap: 72px 24px;
         justify-content: start;
@@ -196,6 +197,7 @@
     }
     .footer-subs-input {
         width: 264px;
+        margin-bottom: 0;
     }
     .subs-btn {
         margin: 0;

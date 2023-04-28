@@ -91,7 +91,7 @@ body {
     justify-content: space-between;
 }
 .logo {
-    margin-right: 76px;
+    /* margin-right: 76px; */
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -393,6 +393,7 @@ body {
     flex-wrap: wrap;
     /* gap: 24px; */
     row-gap: 72px;
+    justify-content: center;
 }
 .team-content {
     padding: 32px 0;
@@ -413,7 +414,7 @@ body {
     margin-bottom: 8px;
 }
 .team-item {
-    flex-basis: 100%;
+    flex-basis: 264px;
     background-color: var(--background-main-color);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
@@ -505,7 +506,8 @@ body {
     margin-bottom: 48px;
 }
 .portfolio-btn {
-    padding: 12px 24px;
+    /* padding: 12px 24px; */
+    padding: 8px 16px;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -536,9 +538,9 @@ body {
     gap: 48px 24px;
     justify-content: center;
 }
-.portfolio-item {
+/* .portfolio-item {
     max-width: 356px;
-}
+} */
 .portfolio-item:hover .portfolio-cover-text {
     transform: translate(0);
 }
@@ -600,7 +602,7 @@ body {
     padding-bottom: 96px;
 }
 .footer-content {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .footer-logo-wrap {
     margin-right: 0;
@@ -622,7 +624,6 @@ body {
     color: var(--alternate-text-color);
 }
 .footer-text {
-    margin-top: 16px;
     line-height: calc(24 / 16);
     letter-spacing: 0.02em;
     color: var(--alternate-text-color);
