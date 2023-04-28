@@ -536,11 +536,7 @@ body {
     gap: 48px 24px;
     justify-content: center;
 }
-.portfolio-list li {
-    /* width: calc((100% - 48px) / 3); */
-}
 .portfolio-item {
-    /* max-width: 360px; */
     max-width: 356px;
 }
 .portfolio-item:hover .portfolio-cover-text {
